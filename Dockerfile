@@ -1,7 +1,7 @@
 # 基础镜像
 FROM centos:7.6.1810
 # 镜像维护人
-MAINTAINER zhengshaoyongzsy@163.com
+MAINTAINER 1125246519@qq.com
 
 # 安装依赖包
 RUN yum -y install gcc gcc-c++ automake autoconf libtool make  gcc-devel openssl-devel zlib-devel pcre-devel wget
